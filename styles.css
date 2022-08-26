@@ -1,0 +1,36 @@
+.card-info__title {
+    color: #000;
+}
+
+.film-info {
+    display: flex;
+    list-style: none;
+}
+
+.film-info__item {
+    color: #ff6b08;
+    position: relative;
+}
+
+.film-info__item:not(:last-child) {
+    padding-right: 4px;
+}
+
+.film-info__item:not(:first-child) {
+    padding-left: 2px;
+}
+.info-separator::after {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    content: "";
+    width: 1px;
+    height: 100%;
+    border: 1px solid #ff6b08;
+}
+
+.rating-styles {
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
