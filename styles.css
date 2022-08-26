@@ -1,5 +1,9 @@
 ul{
 padding: 0;
+margin: 0;
+}
+.photo-card__link{
+    margin-bottom: 12px;
 }
 
 .card-info{
@@ -7,6 +11,7 @@ padding: 0;
 }
 .card-info__title {
     color: #000;
+    margin-bottom: 5px;
 }
 
 .film-info {
