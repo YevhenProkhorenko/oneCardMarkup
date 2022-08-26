@@ -62,36 +62,7 @@ ul {
   border-radius: 7px;
   color: #ffff;
 }
-/* .info-separator::after {
-  position: absolute;
-  top: 5px;
-  right: 0px;
-  content: "";
-  width: 1px;
-  height: 15px;
-  border: 0px solid #ff6b08;
-  background: rgba(255, 107, 8, 10);
-} */
 
-/* .rating-container {
-  position: absolute;
-  bottom: 0;
-  right: 245px;
-
-  width: 30px;
-  height: 15px;
-
-  padding-left: 12px;
-  padding-top: 3px;
-
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 14px;
-  border: 1px solid #ff6b08;
-  background: #ff6b01;
-  border-radius: 5px;
-  color: #ffff;
-} */
 @media screen and (max-width: 319px) {
   .photo-card {
     width: 100%;
@@ -102,8 +73,6 @@ ul {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
-    /* margin-left: 15px;
-    margin-right: 15px; */
   }
 }
 
@@ -118,8 +87,6 @@ ul {
     width: 320px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .photo-card__link {
@@ -186,6 +153,11 @@ ul {
 
 /* desktop */
 @media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
   .photo-card {
     width: 395px;
     height: 634px;
