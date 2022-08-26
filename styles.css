@@ -21,7 +21,7 @@ padding: 0;
 }
 
 .film-info__item:not(:last-child) {
-    padding-right: 5px;
+    padding-right: 6px;
 }
 
 .film-info__item:not(:first-child) {
@@ -29,19 +29,19 @@ padding: 0;
 }
 .info-separator::after {
     position: absolute;
-    top: 0;
+    top: 5px;
     right: 0px;
     content: "";
     width: 1px;
-    height: 100%;
-    border: 1px solid #ff6b08;
-    background: #ff6b08;    
+    height: 15px;
+    border: 0px solid #ff6b08;
+    background: rgba(255, 107, 8, 10);    
 }
 
 .rating-styles {
     position: absolute;
     bottom: 0; 
-    right: 250px;
+    right: 245px;
 
     width: 30px;
     height: 15px;
